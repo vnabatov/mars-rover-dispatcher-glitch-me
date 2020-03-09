@@ -67,7 +67,7 @@ export default new Config().merge({
       'React': 'react'
     }),
     new webpack.DefinePlugin({
-      'SERVER_PORT': process.env.serverPort || 443,
+      'SERVER_PORT': process.env.serverPort || 3000,
       'SERVER_HOST': process.env.serverHost || undefined
     }),
     new HtmlWebpackPlugin({
